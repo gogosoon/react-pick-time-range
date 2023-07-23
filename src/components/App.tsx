@@ -66,7 +66,10 @@ export function PickTime(props: Props) {
       for (const timing of props.scheduledTimings) {
         const startTimeId: number = MAP_TIME_TO_SLOT_ID[timing[0]]
         const endTimeId: number = MAP_TIME_TO_SLOT_ID[timing[1]]
-        if (!startTimeId || !endTimeId) {
+        if (
+          typeof startTimeId == "undefined" ||
+          typeof endTimeId == "undefined"
+        ) {
           props?.onError('Invalid timings provided', timing)
           break
         }
