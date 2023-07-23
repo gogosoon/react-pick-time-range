@@ -19,8 +19,8 @@ root.render(
           alert('All slots are filled')
         }}
         scheduledTimings={[
-          ['01:00', '01:30'],
-          ['17:30', '18:00'],
+          ['00:00', '00:30'],
+          ['17:00', '18:00'],
         ]}
         timeFrame={30}
       />
