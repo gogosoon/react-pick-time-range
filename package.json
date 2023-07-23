@@ -1,0 +1,40 @@
+{
+  "name": "react-pick-time-range",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint \"{**/*,*}.{js,ts,jsx,tsx}\"",
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --dist-dir docs --public-url ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gogosoon/react-pick-time-range.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gogosoon/react-pick-time-range/issues"
+  },
+  "homepage": "https://github.com/gogosoon/react-pick-time-range#readme",
+  "devDependencies": {
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@typescript-eslint/eslint-plugin": "^6.1.0",
+    "@typescript-eslint/parser": "^6.1.0",
+    "eslint": "^8.45.0",
+    "eslint-plugin-react": "^7.33.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "parcel": "^2.9.3",
+    "process": "^0.11.10",
+    "typescript": "^5.1.6"
+  }, 
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0", 
+    "react-pick-time-range": "^1.0.0", 
+    "bootstrap": "^5.3.0"
+  }
+}
