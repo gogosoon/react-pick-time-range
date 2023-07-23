@@ -48,8 +48,8 @@ export function PickTime(props: Props) {
       }
     }
     timeSlots.push(24)
-    TIMESLOT_MAP[24] = '00:00'
-    MAP_TIME_TO_SLOT_ID['00:00'] = 24
+    TIMESLOT_MAP[24] = '23:59'
+    MAP_TIME_TO_SLOT_ID['23:59'] = 24
     return { timeSlots, TIMESLOT_MAP, MAP_TIME_TO_SLOT_ID }
   }
 
